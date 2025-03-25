@@ -1,0 +1,1 @@
+# calculate technical indicators

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environment
+venv/
+.env/
+.envrc
+
+# Jupyter Notebook checkpoints (in case you ever use notebooks)
+.ipynb_checkpoints
+
+# VSCode settings (if you're using VSCode)
+.vscode/
+
+# macOS cruft
+.DS_Store
+
+# System files
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Data folders (optional - if data should not be tracked)
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/saved_model.pkl  # Keep model file if you want
+
+# Pip cache
+pip-wheel-metadata/
