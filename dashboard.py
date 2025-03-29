@@ -30,7 +30,6 @@ if ticker:
     st.subheader("📈 Model Prediction")
     st.write(f"📊 Predicted trend: **{prediction[0]}**")
     latest = history[['MA_7', 'volatility_14d', 'RSI']].iloc[-1]
-    latest = history[['MA_7', 'volatility_14d', 'RSI']].iloc[-1]
     st.subheader("📊 Technical Indicators (Latest)")
     st.write(f"7-Day Moving Average: {latest['MA_7']:.2f}")
     st.write(f"14-Day Volatility: {latest['volatility_14d']:.4f}")
