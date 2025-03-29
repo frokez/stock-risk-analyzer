@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
 st.set_page_config(page_title="Smart Stock Analyzer", layout="centered")
-st.title("📊 Smart Stock Risk Analyzer📊")
+st.title("📊Stock risk analyzer📊")
 
 ticker = st.text_input("Enter Stock Ticker (e.g., AAPL, TSLA):")
 
